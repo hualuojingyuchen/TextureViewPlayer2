@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HYMPlayerItem</string>
+    <string name="two_click_exit_app">再按一次退出程序</string>
+    <string name="load_failed">加载失败，点击重试</string>
+    <string name="load_more_txt">正在加载，请稍后...</string>
+    <string name="no_more_videos">没有加载到视频...</string>
+</resources>
