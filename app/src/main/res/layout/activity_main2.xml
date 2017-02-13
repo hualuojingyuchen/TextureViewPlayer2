@@ -2,12 +2,13 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:id="@+id/root"
     tools:context="test1.dongfang.dayima.hymplayeritem.Main2Activity">
     <Button
+        android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="点我"
@@ -18,5 +19,14 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:id="@+id/btn_me2"/>
+
+    <RelativeLayout
+
+                    android:id="@+id/root"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+
+    </RelativeLayout>
 
 </RelativeLayout>
